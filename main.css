@@ -3,10 +3,67 @@ body{
 }
 
 .col-md-3{
-    background-color: #FF9B00;
+    background: #ff9b00;
     padding: 4%;
-    border-bottom-left-radius: 2px;
-    flex: 0 0 25%;
-    max-width: 25%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
 
+.contact{
+    padding: 4%;
+    height: 400px;
+}
+
+.row{
+    display: flex;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.btn{
+    background: #25274d;
+    color: #fff;
+    font-weight: 600;
+    padding: 5px 50px;
+    text-align: center;
+}
+
+.btn:hover{
+    background: yellow;
+    color: #fff;
+    font-weight: 600;
+    padding: 5px 50px;
+    text-align: center;
+}
+
+.btn:active{
+    background: red;
+    color: #fffd;
+    font-weight: 600;
+    padding: 5px 50px;
+    text-align: center;
+}
+
+.col-md-9{
+    background: #fff;
+    padding: 3%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+}
+
+.contact-info{
+    margin-top: 10%;
+}
+
+.control-label{
+    font-weight: 600;
+}
+
+.form{
+    width: 200px;
 }
