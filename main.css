@@ -1,3 +1,12 @@
-.rounded-right{
-    
+body{
+    background-color: blueviolet;
+}
+
+.col-md-3{
+    background-color: #FF9B00;
+    padding: 4%;
+    border-bottom-left-radius: 2px;
+    flex: 0 0 25%;
+    max-width: 25%;
+
 }
